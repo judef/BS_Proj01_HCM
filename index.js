@@ -9,7 +9,7 @@ const game = {
 const wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
 document.body.innerHTML = `
 	<main class="app">
-		<header><div><small>TIC TAC TOE</small><h1>Grid <i>Battle</i></h1><p>Think ahead. Own the board.</p></div><button id="theme">☾</button></header>
+		<header><div><small>TIC TAC TOE WITH JOE</small><h1>Grid <i>Battle</i></h1><p>Think ahead. Own the board.</p></div><button id="theme">☾</button></header>
 		<nav><button class="mode active" data-mode="computer">VS COMPUTER</button><button class="mode" data-mode="local">LOCAL DUEL</button><select id="level"><option value="easy">Easy</option><option value="hard" selected>Impossible</option></select></nav>
 		<section class="scores"><div>X <b id="sx">0</b></div><div>DRAWS <b id="sd">0</b></div><div>O <b id="so">0</b></div></section>
 		<p id="message">Your turn <b>×</b></p><div id="board"></div>
